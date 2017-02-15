@@ -1,4 +1,5 @@
-// npm instll tapeでインストールした後、testより上のメインフォルダからnode test/tape_test1.jsで実行する。
+// install tape with "npm instll tape".
+// From top folder, "node test/d3-electrophoresis_test.js".
 var test = require("../node_modules/tape");
 var elect = require("../src/d3-electrophoresis.js");
 
