@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js" charset="utf-8"></script>
+  <script src="../src/d3-electrophoresis.js"></script>
+</head>
+<body>
+
+  <div>
+      <input type="button" value="TURN ON" onclick="render()" />
+  </div>
+
+  <script type="text/javascript">
+
+    var width = 460;
+    var height=500;
+
+    var gel = electrophoresis();
+
+    var svg = d3.select("body").append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .call(gel.makeGel); // Make black background first.
+
+    // Delete previous bands and render new bands.
+    function render(){
+      // You can delete band elements by referencing ".gel".
+      d3.selectAll(".gel").remove();
+      // Set parameters by {} or method-chain.
+      gel = electrophoresis({duration:2000});
+      // Make band elements in svg.
+      svg.call(gel);
+    }
+
+  </script>
+</body>
+</html>
