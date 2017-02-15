@@ -2,7 +2,7 @@
 A D3.js plugin to simulate electrophoresis which is a basic biotechnological technique to visualize length of DNA segments cut by restriction enzyme.
 Using this plugin, you can cut not only DNA sequence, but also any text, by words.
 
-画像を置く。
+![result_text_name1_small1.png](assets/result_text_name1_small1.png)
 
 ### Examples
 gistにあげ、blockのリンク、自分のブログでのDNA切り、CGなどのリンク。
