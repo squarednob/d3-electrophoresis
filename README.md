@@ -44,8 +44,8 @@ __and/or__ by method-chain:
 var gel = electrophoresis().DNA("agtctatcacg").enzymes(["ac","gca"]);
 ```
 
-<br>
 
+### API Reference
 <a name="DNA" href="#DNA">#</a> electrophoresis.__DNA__([_text_])
 
 Target text to be cut.
