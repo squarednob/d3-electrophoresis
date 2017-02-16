@@ -171,7 +171,7 @@
     }else{
       no_tooltips = "on";
     }
-    var dict = {scale: scale, band_thick_rate:smear, band_blur:blur, duration:slow, tooltip_name_on:no_tooltips, tooltip_band_on:no_tooltips};
+    var dict = {scale: scale, band_thick_rate:smear, band_blur:blur, duration:slow, tooltip_band_on:no_tooltips};
 
     d3.selectAll(".gel").remove();
     gel = electrophoresis(dict).DNA(DNA_text).enzymes(wells).names(names).tooltip_band_size(10).tooltip_name_size(14).tooltip_name_offsetX(3);
