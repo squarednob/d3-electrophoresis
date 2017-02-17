@@ -5,10 +5,23 @@ Using this plugin, you can cut not only DNA sequence, but also any text, by word
 ![result_text_name1_small1.png](assets/result_text_name1_small1.png)
 
 ### Examples
-gistにあげ、blockのリンク、自分のブログでのDNA切り、CGなどのリンク。
+#### cutting text with words
+* Simple example: [showcase with code](https://bl.ocks.org/squarednob/raw/bd2a39f09d177c99b982ca406ca9cf1d/).
+* Customizing with Trump inauguration text: [Showcase](https://bl.ocks.org/squarednob/raw/846808f07995e537dc7af2e9bcffdf3b/), [Code](https://bl.ocks.org/squarednob/846808f07995e537dc7af2e9bcffdf3b).
+Customizing with DNA sequence: [Showcas](https://bl.ocks.org/squarednob/raw/959bac1f4eca03059e02dbd480982c60/), [Code](https://bl.ocks.org/squarednob/959bac1f4eca03059e02dbd480982c60).
+
+
+
+##### Using SVG for CGI
+By [SVG Crowbar](http://nytimes.github.io/svg-crowbar/), you can download the resulted DNA bands as SVG. And the SVG can be used for, such as 3D object in Blender. The CGI image below was made with Blender, including SVG bands in the gel.
+![electrophoresis_trump-speech_cleanbench1_up1_smal1.jpg](assets/electrophoresis_trump-speech_cleanbench1_up1_smal1.jpg)
+
+
+![electrophoresis_trump-speech_cleanbench1_small1.jpg](assets/electrophoresis_trump-speech_cleanbench1_small1.jpg)
 
 ### Install
 npmかgithubのリリースへのリンク。scriptタグの例。d3v4と一緒に使う。
+
 1. Download this plugin from 〜〜〜.
 2. In HTML, load D3.js (__v.4__) and d3-electrophoresis.js with `<script>`tags.
 

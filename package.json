@@ -1,7 +1,7 @@
 {
   "name": "d3-electrophoresis",
   "version": "1.0.0",
-  "description": "A D3.js plugin to simulate electrophoresis by cutting text.",
+  "description": "D3.js plugin to simulate electrophoresis by cutting text.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -24,7 +24,7 @@
     "biology",
     "NLP"
   ],
-  "author": "Nobuyuki Hirakata",
+  "author": "Nobuyuki Hirakata", "url": "http://gappyfacets.com/",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/squarednob/d3-electrophoresis/issues"
