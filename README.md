@@ -2,13 +2,12 @@
 A D3.js plugin to simulate electrophoresis which is a basic biotechnological technique to visualize length of DNA segments cut by restriction enzyme.
 Using this plugin, you can cut not only DNA sequence, but also any text, by words.
 
-![result_text_name1_small1.png](assets/result_text_name1_small1.png)
-
 ### Examples
-#### cutting text with words
+#### cutting text by words
+![result_text_name1_small1.png](assets/result_text_name1_small1.png)
 * Simple example: [showcase with code](https://bl.ocks.org/squarednob/raw/bd2a39f09d177c99b982ca406ca9cf1d/).
 * Customizing with Trump inauguration text: [Showcase](https://bl.ocks.org/squarednob/raw/846808f07995e537dc7af2e9bcffdf3b/), [Code](https://bl.ocks.org/squarednob/846808f07995e537dc7af2e9bcffdf3b).
-Customizing with DNA sequence: [Showcas](https://bl.ocks.org/squarednob/raw/959bac1f4eca03059e02dbd480982c60/), [Code](https://bl.ocks.org/squarednob/959bac1f4eca03059e02dbd480982c60).
+* Customizing with DNA sequence: [Showcas](https://bl.ocks.org/squarednob/raw/959bac1f4eca03059e02dbd480982c60/), [Code](https://bl.ocks.org/squarednob/959bac1f4eca03059e02dbd480982c60).
 
 
 
