@@ -5,6 +5,8 @@ Using this plugin, you can cut not only DNA sequence, but also any text, by word
 ### Examples
 #### cutting text by words
 ![result_text_name1_small1.png](assets/result_text_name1_small1.png)
+
+You can change text and words in the showcases.
 * Trump inauguration text: [Showcase](https://bl.ocks.org/squarednob/raw/846808f07995e537dc7af2e9bcffdf3b/), [Code](https://bl.ocks.org/squarednob/846808f07995e537dc7af2e9bcffdf3b).
 * DNA sequence: [Showcas](https://bl.ocks.org/squarednob/raw/959bac1f4eca03059e02dbd480982c60/), [Code](https://bl.ocks.org/squarednob/959bac1f4eca03059e02dbd480982c60).
 
