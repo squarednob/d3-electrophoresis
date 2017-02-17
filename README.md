@@ -16,9 +16,6 @@ Customizing with DNA sequence: [Showcas](https://bl.ocks.org/squarednob/raw/959b
 By [SVG Crowbar](http://nytimes.github.io/svg-crowbar/), you can download the resulted DNA bands as SVG. And the SVG can be used for, such as 3D object in Blender. The CGI image below was made with Blender, including SVG bands in the gel.
 ![electrophoresis_trump-speech_cleanbench1_up1_smal1.jpg](assets/electrophoresis_trump-speech_cleanbench1_up1_smal1.jpg)
 
-
-![electrophoresis_trump-speech_cleanbench1_small1.jpg](assets/electrophoresis_trump-speech_cleanbench1_small1.jpg)
-
 ### Install
 1. Download the plugin [d3-electrophoresis.js](https://raw.githubusercontent.com/squarednob/d3-electrophoresis/master/src/d3-electrophoresis.js).
 2. In HTML, load D3.js (__v.4__) and d3-electrophoresis.js with `<script>`tags.
