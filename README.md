@@ -17,7 +17,7 @@ By [SVG Crowbar](http://nytimes.github.io/svg-crowbar/), you can download the re
 ![electrophoresis_trump-speech_cleanbench1_up1_smal1.jpg](assets/electrophoresis_trump-speech_cleanbench1_up1_smal1.jpg)
 
 ### Install
-1. Download the plugin [d3-electrophoresis.js](https://raw.githubusercontent.com/squarednob/d3-electrophoresis/master/src/d3-electrophoresis.js).
+1. Download [d3-electrophoresis.js](https://raw.githubusercontent.com/squarednob/d3-electrophoresis/master/src/d3-electrophoresis.js) from right click.
 2. In HTML, load D3.js (__v.4__) and d3-electrophoresis.js with `<script>`tags.
 
 ```
