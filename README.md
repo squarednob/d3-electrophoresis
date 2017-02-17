@@ -20,8 +20,6 @@ By [SVG Crowbar](http://nytimes.github.io/svg-crowbar/), you can download the re
 ![electrophoresis_trump-speech_cleanbench1_small1.jpg](assets/electrophoresis_trump-speech_cleanbench1_small1.jpg)
 
 ### Install
-npmかgithubのリリースへのリンク。scriptタグの例。d3v4と一緒に使う。
-
 1. Download this plugin from 〜〜〜.
 2. In HTML, load D3.js (__v.4__) and d3-electrophoresis.js with `<script>`tags.
 
