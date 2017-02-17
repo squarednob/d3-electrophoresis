@@ -13,6 +13,8 @@ Using this plugin, you can cut not only DNA sequence, but also any text, by word
 
 ##### Using SVG for CGI
 By [SVG Crowbar](http://nytimes.github.io/svg-crowbar/), you can download the resulted DNA bands as SVG. And the SVG can be used for, such as 3D object in Blender. The CGI image below was made with Blender, including SVG bands in the gel.
+
+The detail and other images are on the blog: [New D3.js plugin: D3-electrophoresis released](http://gappyfacets.com/2017/02/18/new-d3-js-plugin-d3-electrophoresis-released/).
 ![electrophoresis_trump-speech_cleanbench1_up1_smal1.jpg](assets/electrophoresis_trump-speech_cleanbench1_up1_smal1.jpg)
 
 ### Install
