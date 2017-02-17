@@ -1,6 +1,6 @@
 {
   "name": "d3-electrophoresis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "D3.js plugin to simulate electrophoresis by cutting text.",
   "main": "index.js",
   "directories": {
