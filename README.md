@@ -62,7 +62,7 @@ var gel = electrophoresis().DNA("agtctatcacg").enzymes(["ac","gca"]);
 
 To change vertical scale of band, like changing gel concentration, use `.scale()` chain, and input d3's scale object.
 
-For example, to make band within y=200~400 in linear scale, add scale() chain after electrophoresis().~, and input d3-scale object:
+For example, to make band within y=200 to 400 in linear scale, add scale() chain after electrophoresis().~, and input d3-scale object:
 ```js
 var yScale = d3.scaleLinear().range([200,400]);
 gel = electrophoresis({DNA: text}).enzymes(words).names(names).scale(yScale);
