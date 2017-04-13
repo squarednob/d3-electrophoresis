@@ -67,6 +67,7 @@ For example, to make band within y=200~400 in linear scale, add scale() chain af
 var yScale = d3.scaleLinear().range([200,400]);
 gel = electrophoresis({DNA: text}).enzymes(words).names(names).scale(yScale);
 ```
+[Demo](https://bl.ocks.org/squarednob/fc711a3e6a25800efbf03067b0231825).
 
 ### API Reference
 <a name="DNA" href="#DNA">#</a> electrophoresis.__DNA__([_text_])
