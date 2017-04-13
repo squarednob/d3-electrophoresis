@@ -3,11 +3,12 @@ A D3.js plugin to simulate electrophoresis which is a basic biotechnological tec
 Using this plugin, you can cut not only DNA sequence, but also any text, by words.
 
 ### Examples
-#### cutting text by words
+#### Cutting text by words
 ![result_text_name1_small1.png](assets/result_text_name1_small1.png)
 
 You can change text and words in the showcases.
 * Simple example: [Showcase and code](https://bl.ocks.org/squarednob/bd2a39f09d177c99b982ca406ca9cf1d).
+* Changinge scale: [showcase and code](https://bl.ocks.org/squarednob/fc711a3e6a25800efbf03067b0231825).
 * Trump inauguration text: [Showcase](https://bl.ocks.org/squarednob/raw/846808f07995e537dc7af2e9bcffdf3b/), [Code](https://bl.ocks.org/squarednob/846808f07995e537dc7af2e9bcffdf3b).
 * DNA sequence: [Showcas](https://bl.ocks.org/squarednob/raw/959bac1f4eca03059e02dbd480982c60/), [Code](https://bl.ocks.org/squarednob/959bac1f4eca03059e02dbd480982c60).
 
@@ -55,6 +56,16 @@ __and/or__ by method-chain:
 var gel = electrophoresis().DNA("agtctatcacg").enzymes(["ac","gca"]);
 ```
 
+### Tips
+#### Changing scale
+![result_scale_200-400_1.png](assets/result_scale_200-400_1.png)
+To change vertical scale of band, like changing gel concentration, use `.scale()` chain.
+
+For example, to make band within y=200~400 in linear scale, add scale() chain after electrophoresis().~, and input d3-scale object:
+```js
+var yScale = d3.scaleLinear().range([200,400]);
+gel = electrophoresis({DNA: text}).enzymes(words).names(names).scale(yScale);
+```
 
 ### API Reference
 <a name="DNA" href="#DNA">#</a> electrophoresis.__DNA__([_text_])
@@ -79,7 +90,9 @@ Default: _["marker", "1", "2", "3", "4", "5", "6", "7"]_.
 
 <a name="scale" href="#scale">#</a> electrophoresis.__scale__([_obj_])
 
-A scale to map length values of segmented texts from top to the bottom. This must be a scale object in D3-v.4 syntax, such as `d3.scaleSqrt()`.
+A scale to map length values of segmented texts from top to the bottom. The input must be a scale object in D3-v.4 syntax, such as `d3.scaleSqrt()`, `d3.scaleLinear()`, `d3.scalePow()` .etc. See how to use   [d3/d3-scale](https://github.com/d3/d3-scale).
+
+To make band within height of 200-500 in linear scale, for example, use `d3.scaleLinear().range([200, 500]))`.
 
 Default: _`d3.scaleLinear()`_.
 

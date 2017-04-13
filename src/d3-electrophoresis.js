@@ -102,9 +102,19 @@ function electrophoresis(config){
 
       var gel_width = selection.attr("width") - gel_margin.left - gel_margin.right;
       var gel_height = selection.attr("height") - gel_margin.top - gel_margin.bottom;
-
       var max_value = d3.max(d3.merge(len_list));
-      yScale.domain([0, max_value]).range([gel_height,0]);
+
+      // if range or domain is default, set min-max.
+      if (yScale.domain().toString() == [0, 1].toString()){
+        yScale.domain([0, max_value]);
+      }
+      if (yScale.range().toString() == [0, 1].toString()){
+        yScale.range([gel_height,0]);
+      } else {
+        var yScale_range0 = yScale.range()[0];
+        var yScale_range1 = yScale.range()[1];
+        yScale.range([yScale_range1, yScale_range0]);
+      }
 
       // Filter for blur.
       var lane_filter = selection.append("defs").attr("class", "gel")
